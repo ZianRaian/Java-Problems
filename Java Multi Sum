@@ -1,0 +1,21 @@
+Java Multi Sum
+Given a bare class, Arithmetic, write a method, sum, that accepts an array as an argument. Overload it to process an array of integer or string types as follows. For an integer array return the sum of the elements and for strings concatenate the strings in order. 
+Function description : 
+public Integer sum(Integer[] ints){
+  
+  //sum the integers
+
+  //return the sum
+}
+
+overload this function for the string type as well, returns string or integer. the sum as described. 
+
+Constraints 
+1)1<=length of array<=100
+2)For an integer array, they are in the inclusive range [1, 100]
+3)For a string array:
+   Consisit of lowercase and uppercase English letters only.
+   Their lengths do not exceed 100.
+
+Input format for testing:
+A single line of input consists of space separated Intgers or Strings.
