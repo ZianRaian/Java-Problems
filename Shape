@@ -1,0 +1,25 @@
+Java: Shape 
+Define the following 2 classes to represent 2-dimensional objects.
+
+Super Class: Shape 
+It should have:
+1) 2 member variables: length and breadth of integer types. 
+2)2 argument constructor for length and breadth which stores the arguments in their corresponding member variables.
+3) A method, area(), which prints the length and breadth of shape , determined by a space. 
+
+Concrete Class: Rectangle 
+It should have:
+1) 2 argument constructor for length and breadth. It should forward those arguments to the superclass constructor.
+2) Override the area() method to print the area using the formula( length*breadth)
+
+Constraints:
+For both length and breadth the range should be from including 0-1000
+
+Input format for testing: 
+A single line of input consists of two space separated integers, length and breadth.
+
+Sample Input: 
+4 5 
+Sample Output: 
+4 5
+20  
